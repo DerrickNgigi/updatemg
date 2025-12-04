@@ -7,8 +7,8 @@ MQTT_CLIENT_USERNAME = "mega_10009"
 MQTT_CLIENT_PASSWORD = "mega_10009"
 MQTT_CLIENT_ID = "mega_10009"
 
-MQTT_TOPIC_SUBSCRIBE = "megagas/kayole/kitchenOne"
-MQTT_TOPIC_PUBLISH = "megakitchen/kayole/kitchenStatus"
+MQTT_TOPIC_SUBSCRIBE = "megagas/mega_10009/kitchen"
+MQTT_TOPIC_PUBLISH = "megagas/mega_10009/kitchenStatus"
 
 # ==========================================
 # GSM CONFIGURATION (APN)
@@ -16,6 +16,13 @@ MQTT_TOPIC_PUBLISH = "megakitchen/kayole/kitchenStatus"
 GSM_APN = "safaricomiot"
 GSM_USER = ""
 GSM_PASS = ""
+
+# ==========================================
+# OTA CONFIGURATION
+# ==========================================
+UPDATE_URL = "https://raw.githubusercontent.com/DerrickNgigi/updatemgmain"
+VERSION_FILE = "/flash/version.txt"
+GLOBAL_VERSION = "1.0.0"
 
 # ==========================================
 # HARDWARE PIN CONFIGURATION
