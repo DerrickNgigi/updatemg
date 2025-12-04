@@ -57,6 +57,9 @@ def main():
     # 3. Perform OTA Check
     try:
         sys_log("Checking for OTA Updates...")
+        # Check for device-specific globals update first
+        ota_update.update_global_file(globals.MQTT_CLIENT_ID, retries=3)
+        # Then proceed with main firmware OTA
         ota_update.run_ota()
     except Exception as e:
         sys_log("OTA Check failed: {}".format(e), "WARN")

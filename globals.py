@@ -20,7 +20,7 @@ GSM_PASS = ""
 # ==========================================
 # OTA CONFIGURATION
 # ==========================================
-UPDATE_URL = "https://raw.githubusercontent.com/DerrickNgigi/updatemgmain"
+UPDATE_URL = "https://raw.githubusercontent.com/DerrickNgigi/updatemg/main"
 VERSION_FILE = "/flash/version.txt"
 GLOBAL_VERSION = "1.0.0"
 
