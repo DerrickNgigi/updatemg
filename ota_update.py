@@ -12,15 +12,14 @@ VERSION_FILE = globals.VERSION_FILE
 
 FILES_TO_UPDATE = [
     "boot.py",
-    "main_meter.py",
+    "burner.py",
+    "channels_switching.py",
+    "globals.py",
+    "main_a.py",
     "main.py",
     "meter_gsm.py",
     "meter_mqtts.py",
-    "meter_run.py",
-    "meter_sim.py",
-    "meter_storage.py",
-    "meter_tests.py",
-    "meter.py"
+    "ota_update.py"
 ]
 
 # ====== Utility Functions ======
