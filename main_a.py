@@ -68,6 +68,8 @@ def main():
     # Since we are already connected, we can start MQTT
     mqtt_client = meter_mqtts.start_mqtt()
     
+    burner.test_sequence()
+    
     while True:
         try:
             # Check GSM Connection (1 = Connected)
@@ -100,6 +102,8 @@ def main():
             sys_log("Restarting system in 5 seconds...", "WARN")
             utime.sleep(5)
             machine.reset()
+            
+        
 
 if __name__ == "__main__":
     main()

@@ -28,7 +28,7 @@ def test_sequence():
     
     # All ON briefly
     set_all(1)
-    sleep(0.5)
+    sleep(5)
     
     # All OFF
     set_all(0)
