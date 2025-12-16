@@ -3,12 +3,12 @@
 # ==========================================
 MQTT_BROKER = "152.42.139.67"
 MQTT_BROKER_PORT = 18100
-MQTT_CLIENT_USERNAME = "mega_10009"
-MQTT_CLIENT_PASSWORD = "mega_10009"
-MQTT_CLIENT_ID = "mega_10009"
+MQTT_CLIENT_USERNAME = "mega_10005"
+MQTT_CLIENT_PASSWORD = "mega_10005"
+MQTT_CLIENT_ID = "mega_10005"
 
-MQTT_TOPIC_SUBSCRIBE = "megagas/mega_10009/kitchen"
-MQTT_TOPIC_PUBLISH = "megagas/mega_10009/kitchenStatus"
+MQTT_TOPIC_SUBSCRIBE = "megagas/mega_10005/kitchen"
+MQTT_TOPIC_PUBLISH = "megagas/mega_10005/kitchenStatus"
 
 # ==========================================
 # GSM CONFIGURATION (APN)
