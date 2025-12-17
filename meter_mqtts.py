@@ -60,12 +60,13 @@ def start_mqtt():
             globals.MQTT_BROKER,
             user=globals.MQTT_CLIENT_USERNAME,
             password=globals.MQTT_CLIENT_PASSWORD,
+            clientid=globals.MQTT_CLIENT_ID,
             port=globals.MQTT_BROKER_PORT,
             autoreconnect=True,
             connected_cb=conncb,
             disconnected_cb=disconncb,
             data_cb=datacb
-        )
+            )
         print("[MQTT] Initializing...")
     
         mqtt.start()

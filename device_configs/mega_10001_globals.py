@@ -7,8 +7,8 @@ MQTT_CLIENT_USERNAME = "mega_10001"
 MQTT_CLIENT_PASSWORD = "mega_10001"
 MQTT_CLIENT_ID = "mega_10001"
 
-MQTT_TOPIC_SUBSCRIBE = "megagas/mega_10001/kitchen"
-MQTT_TOPIC_PUBLISH = "megagas/mega_10001/kitchenStatus"
+MQTT_TOPIC_SUBSCRIBE = "smartmeter/megagas/mega_10001/kitchen"
+MQTT_TOPIC_PUBLISH = "smartmeter/megagas/mega_10001/kitchenStatus"
 
 # ==========================================
 # GSM CONFIGURATION (APN)
@@ -22,7 +22,7 @@ GSM_PASS = ""
 # ==========================================
 UPDATE_URL = "https://raw.githubusercontent.com/DerrickNgigi/updatemg/main"
 VERSION_FILE = "/flash/version.txt"
-GLOBAL_VERSION = "1.0.2"
+GLOBAL_VERSION = "1.0.3"
 
 # ==========================================
 # HARDWARE PIN CONFIGURATION
