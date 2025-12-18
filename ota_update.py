@@ -14,7 +14,6 @@ FILES_TO_UPDATE = [
     "boot.py",
     "burner.py",
     "channels_switching.py",
-    "globals.py",
     "main_a.py",
     "main.py",
     "meter_gsm.py",
