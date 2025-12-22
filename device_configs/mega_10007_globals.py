@@ -3,12 +3,12 @@
 # ==========================================
 MQTT_BROKER = "152.42.139.67"
 MQTT_BROKER_PORT = 18100
-MQTT_CLIENT_USERNAME = "mega_10006"
-MQTT_CLIENT_PASSWORD = "mega_10006"
-MQTT_CLIENT_ID = "mega_10006"
+MQTT_CLIENT_USERNAME = "mega_10007"
+MQTT_CLIENT_PASSWORD = "mega_10007"
+MQTT_CLIENT_ID = "mega_10007"
 
-MQTT_TOPIC_SUBSCRIBE = "megagas/mega_10006/kitchen"
-MQTT_TOPIC_PUBLISH = "megagas/mega_10006/kitchenStatus"
+MQTT_TOPIC_SUBSCRIBE = "megagas/mega_10007/kitchen"
+MQTT_TOPIC_PUBLISH = "megagas/mega_10007/kitchenStatus"
 
 # ==========================================
 # GSM CONFIGURATION (APN)
@@ -22,7 +22,7 @@ GSM_PASS = ""
 # ==========================================
 UPDATE_URL = "https://raw.githubusercontent.com/DerrickNgigi/updatemg/main"
 VERSION_FILE = "/flash/version.txt"
-GLOBAL_VERSION = "1.0.4.1"
+GLOBAL_VERSION = "1.0.3"
 
 # ==========================================
 # HARDWARE PIN CONFIGURATION
